@@ -1,6 +1,6 @@
 # Torchserve Test
 
-## Preference
+## Preparation
 ```
 yolo export model=yolov8n.pt imgsz=640  # create torchscript
 mv yolov8n.torchscript yolov8n.torchscript.pt  # torchserve can recognize when file extension is 'pt'
