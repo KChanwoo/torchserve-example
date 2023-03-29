@@ -1,5 +1,19 @@
 # Torchserve Test
 
+## Environment
+```
+Python==3.9
+torch==2.0.0
+ultralytics==8.0.58
+torchserve==0.7.1
+torch-model-archiver (from git: https://github.com/pytorch/serve/tree/master/model-archiver)
+```
+You can clone the [torchserve repository](https://github.com/pytorch/serve) and move to model-archiver
+then type the below,
+```
+pip install .
+```
+
 ## Preparation
 ```
 yolo export model=yolov8n.pt imgsz=640  # create torchscript
